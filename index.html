@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <!--Import Google Icon Font-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!--Import materialize.css-->
+        <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+        <link type="text/css" rel="stylesheet" href="css/style.css" media="screen,projection" />
+
+        <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    </head>
+
+    <body>
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#!" class="brand-logo">September 22, 2018
+</a>
+                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="sass.html">Sass</a></li>
+                    <li><a href="badges.html">Components</a></li>
+                    <li><a href="collapsible.html">Javascript</a></li>
+                    <li><a href="mobile.html">Mobile</a></li>
+                </ul>
+                <ul class="side-nav" id="mobile-demo">
+                    <li><a href="sass.html">Sass</a></li>
+                    <li><a href="badges.html">Components</a></li>
+                    <li><a href="collapsible.html">Javascript</a></li>
+                    <li><a href="mobile.html">Mobile</a></li>
+                </ul>
+            </div>
+        </nav>
+        <section id="carousel">
+            <h2>Kaitlyn &amp; Andrew</h2>
+            <div class="carousel">
+                <a class="carousel-item" href="#one"></a>
+                <a class="carousel-item" href="#two"></a>
+                <a class="carousel-item" href="#three"></a>
+                <a class="carousel-item" href="#four"></a>
+                <a class="carousel-item" href="#five"></a>
+                <a class="carousel-item" href="#six"></a>
+                <a class="carousel-item" href="#seven"></a>
+                <a class="carousel-item" href="#eight"></a>
+                <a class="carousel-item" href="#nine"></a>
+            </div>
+        </section>
+        <section id="welcome">
+            <div class="container">
+                <h2>Welcome to our Website!</h2>
+                <p class="flow-text">Thank you so much for visiting our wedding website! We are so excited to celebrate our special day with our family and friends. This website contains wedding day details and much more - check back for updates!</p>
+            </div>
+        </section>
+        <section id="story">
+            <div class="container">
+                <h2>Our Story</h2>
+                <div id="storyImg1" class="storyImg"></div>
+                <p><span class="storyTitle">Chapter 1</span>Andrew and Kaitlyn met in 2014 through their mutual friend, Kaylynn. Kaylynn invited some friends to go out to dinner for her birthday; but only Andrew and Kaitlyn were able to go. According to
+                    Andrew, he wanted to ask Kaitlyn on a date after dinner but he could not since she was seeing someone else.
+                </p>
+                <div id="storyImg2" class="storyImg"></div>
+                <p><span class="storyTitle">Chapter 2</span>Flash forward to August 2016, at Kaylynn's wedding. Andrew and Kaitlyn met again; and then proceeded to talk and dance during the whole reception. Kaitlyn mentioned that she was in need of volunteer
+                    coaches for a youth soccer program she helped oversee in Detroit. A couple of days later, Andrew signed up. This then began a three month process of Andrew asking Kaitlyn. In December 2016, Kaitlyn finally agreed. (Finally!)</p>
+                <div id="storyImg3" class="storyImg"></div>
+                <p><span class="storyTitle">Chapter 3</span>Andrew and Kaitlyn proceeded to grow in Christ together, learn about one another, and support each other in their individual goals. The Lord began to reveal to them that spending their love together
+                    was in His plan through going to church together, doing devotionals together, and praying together. During this time, Andrew got baptized at their church (Mack Avenue Community Church in Detroit).</p>
+                <div id="storyImg4" class="storyImg"></div>
+                <p><span class="storyTitle">Chapter 4</span>On February 25, 2018; Andrew asked Kaitlyn to marry him. Of course, she said yes! Now, as they prepare to start the life together in September 2018, Kaitlyn works in foster care and will begin studying
+                    for her Clinical Master's in Social Work; and Andrew is about to finish tech school and is looking to start his career in heating and cooling. They plan to live on the Eastside of Detroit where their church is located. </p>
+            </div>
+        </section>
+        <!--Import jQuery before materialize.js-->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="js/materialize.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                $(".button-collapse").sideNav();
+                $('.carousel').carousel({
+                    indicators: true
+                });
+                $('.parallax').parallax();
+            })
+        </script>
+    </body>
+
+</html>
