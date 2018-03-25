@@ -51,7 +51,7 @@ h2 {
 
 .brand-logo {
     font-family: 'Bad';
-    font-size: 1.5em;
+    font-size: 1.5em !important;
 }
 
 #carousel, #story, #registry {
@@ -290,5 +290,9 @@ section {
         width: 100%;
         margin: 0px 0px 30px 0px;
         border-radius: 0px;
+    }
+    .brand-logo {
+        font-family: 'Bad';
+        font-size: 1em !important;
     }
 }
