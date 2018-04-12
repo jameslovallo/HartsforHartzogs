@@ -34,14 +34,18 @@ h2 {
     position: relative;
 }
 
-.btn, .btn:hover, .btn:focus, .btn:active {
+.btn,
+.btn:hover,
+.btn:focus,
+.btn:active {
     background-color: #3D1C3B;
     line-height: 3em;
     height: 3em;
     font-weight: bold;
 }
 
-.btn .fab, .btn .far {
+.btn .fab,
+.btn .far {
     font-size: 2em;
     font-weight: normal;
     position: relative;
@@ -54,12 +58,16 @@ h2 {
     font-size: 1.5em !important;
 }
 
-#carousel, #story, #registry {
+#carousel,
+#story,
+#registry {
     background-color: #fafafa;
     background-image: url("https://www.transparenttextures.com/patterns/natural-paper.png");
 }
 
-#carousel, #story, #registry {
+#carousel,
+#story,
+#registry {
     padding: 30px 0px;
 }
 
@@ -75,7 +83,8 @@ h2 {
     bottom: -20px;
 }
 
-#welcome, #party {
+#welcome,
+#party {
     padding: 30px 0px 35px 0px;
     border-top: 2px solid #3D1C3B;
     border-bottom: 2px solid #3D1C3B;
@@ -85,11 +94,6 @@ h2 {
     padding: 60px 0px 35px 0px;
     border-top: 2px solid #3D1C3B;
     text-align: left;
-}
-
-#location .row {
-    display: flex;
-    align-items: center;
 }
 
 .top.shadow {
@@ -108,7 +112,8 @@ h2 {
     z-index: -1 !important;
 }
 
-#welcome h2:after, #party h2:after {
+#welcome h2:after,
+#party h2:after {
     background-image: url('https://www.documentsanddesigns.com/media/view/500/339/Ornate-Line-16.gif');
     height: 45px;
     width: 80px;
@@ -259,18 +264,31 @@ section {
     background: #3D1C3B;
 }
 
+#location .row:nth-child(1) .col {
+    text-align: left;
+}
+
+#location .row:nth-child(2) .col {
+    text-align: right;
+}
+
+#location .row:nth-child(1) {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
 @media only screen and (min-width: 993px) {
     .brand-logo {
         margin-left: 20px;
     }
 }
 
-@media only screen and (max-width: 768px) {
-    #location .row {
-        flex-direction: column;
+@media only screen and (max-width: 600px) {
+    #location .row:nth-child(2) .col {
+        text-align: left;
     }
-    #location .col {
-        width: 100%;
+    #location .row:nth-child(1) {
+        display: block;
     }
 }
 
