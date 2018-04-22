@@ -60,7 +60,8 @@ h2 {
 
 #carousel,
 #story,
-#registry {
+#registry,
+#rsvp {
     background-color: #fafafa;
     background-image: url("https://www.transparenttextures.com/patterns/natural-paper.png");
 }
@@ -200,11 +201,6 @@ section {
     width: 100%;
 }
 
-#rsvp iframe {
-    height: 900px;
-    width: 100vw;
-}
-
 .carousel-item {
     height: 300px !important;
     width: 450px !important;
@@ -315,4 +311,11 @@ section {
         font-family: 'Bad';
         font-size: 1em !important;
     }
+}
+
+#rsvp {
+    padding: 120px 0px;
+    background-image: url("https://lh3.googleusercontent.com/fD1FMGdKa9ai0TJPUnAK6SX6-8Rvtcwyn58qZEcBKE0SI3r0CC3-T-Udg46N9EepXg0H_raCyg=w1200");
+    background-size: cover;
+    background-position: center center;
 }
